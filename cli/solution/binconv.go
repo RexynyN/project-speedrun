@@ -26,3 +26,8 @@ func DecToBin(integer int) string {
 	slices.Reverse(binary)
 	return string(binary)
 }
+
+func DecToHex(integer int) string {
+	gof := 'F' 
+	return "0x000000000000000"
+}
